@@ -1,0 +1,26 @@
+Set of Model parameters
+
+Model: "our_model_bi_lstm"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ bidirectional (Bidirectiona  multiple                 51360     
+ l)                                                              
+                                                                 
+ dropout (Dropout)           multiple                  0         
+                                                                 
+ layer_normalization (LayerN  multiple                 240       
+ ormalization)                                                   
+                                                                 
+ dense (Dense)               multiple                  120       
+                                                                 
+ ffn (FFN)                   multiple                  1243      
+                                                                 
+ ffn_1 (FFN)                 multiple                  421       
+                                                                 
+=================================================================
+Total params: 53,384
+Trainable params: 53,384
+Non-trainable params: 0
+_________________________________________________________________
+
